@@ -17,4 +17,11 @@ num1 = int(input("Digite o primeiro número: "))
 num2 = int(input("Digite o segundo número: "))
 resultado = num1 * num2
 
-print(f"O valor da multiplicação de {num1} * {num2} é: {resultado}") # Lembrar do f para as variáveis e deixar tudo dentro das ""
+print(f"O valor da multiplicação de {num1} * {num2} é: {resultado}") # Lembrar do f para as vars e tudo dentro das ""
+
+    # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+resultado = num1 // num2
+
+print(f"O valor da divisão de {num1} dividido por {num2} é: {resultado}") # Lembrar do f para as var e tudo dentro das ""
