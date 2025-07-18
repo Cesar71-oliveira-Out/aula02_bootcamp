@@ -1,3 +1,5 @@
+import math    
+
     # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 num1ad = int(input("Digite o primeiro número: "))
 num2ad = int(input("Digite o segundo número: "))
@@ -86,4 +88,9 @@ print(areadocirculo)
 print("A área do círculo é: ", areadocirculo)
 print(f"A área de um círculo com raio de {raio} é {areadocirculo}")
 
+        # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+        # Ou pode usar o método math, com o import math, conforme o código abaixo.
+raio = float(input("Digite o raio do círculo: "))
+areadocirculo = math.pi * raio ** 2
+print(f"A área do círculo é: {areadocirculo:.2f}") # :.2f é usado para definir a quantidade de números após a vírgula
 
