@@ -180,3 +180,11 @@ valor2or = True
 resultado_or = valor1or or valor2or
 print("Resultado do AND lógico:", resultado_or)
 
+    # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+        # No input, .lower(): Converte a string digitada para minúsculas (ex: "True" vira "true", "FALSE" vira "false").
+        # == 'true': Compara a string em minúsculas com a string 'true'. Se forem iguais, o resultado é True, 
+        # caso contrário, é False. 
+valor1 = (input("Digite um valor: ").lower() == 'true')
+resultado_not = not valor1
+print("Resultado do NOT lógico:", resultado_not)
+
