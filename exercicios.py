@@ -188,3 +188,10 @@ valor1 = (input("Digite um valor: ").lower() == 'true')
 resultado_not = not valor1
 print("Resultado do NOT lógico:", resultado_not)
 
+    # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+compare1 = input("Digite uma palavra ou número: ")
+compare2 = input("Digite outra palavra ou número: ")
+compara = compare1 == compare2
+
+print ("Note: Se True entradas são iguais, senão, são diferentes\n")
+print(compara)
