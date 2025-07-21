@@ -114,3 +114,26 @@ raio = float(input("Digite o raio do círculo: "))
 areadocirculo = math.pi * raio ** 2
 print(f"A área do círculo é: {areadocirculo:.2f}\n") # :.2f é usado para definir a quantidade de números após a vírgula
 
+    # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+        # Dá pra fazer de duas formas, com uma outra variável ou impriminto direto a variável.upper()
+texto = str(input("Digite uma palavra: "))
+print(texto.upper())
+
+texto_upper = texto.upper()
+print(texto_upper)
+
+    # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+nome_completo = str(input("Digite seu nome completo: "))
+print(nome_completo.lower())
+
+nome_completo_min = nome_completo.lower()
+print("Nome completo em minúsculas: ", nome_completo_min)
+
+    # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços 
+    # em branco no início e no final.
+frase = str(input("Digite uma frase: "))
+print(frase.strip())
+
+frase_sem_espaco = frase.strip()
+print(frase_sem_espaco)
+
