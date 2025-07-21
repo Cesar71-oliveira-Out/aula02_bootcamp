@@ -137,3 +137,34 @@ print(frase.strip())
 frase_sem_espaco = frase.strip()
 print(frase_sem_espaco)
 
+    # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, 
+    # imprima o dia, o mês e o ano separadamente.
+data_ddmmaa = (input("Digite uma data no formato dd/mm/aaaa: "))
+dia, mes, ano = data_ddmmaa.split("/")
+print("Dia: ", dia)   # Aqui é um exemplo de impressão de variável após ums string, coloca a vírgula para separar
+print("Mês: ", mes)
+print("Ano: ", ano)
+
+    # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+    # Imprimi de duas formas
+nome = str(input("Digite seu nome: "))
+sobrenome = str(input("Digite seu sobrenome: "))
+
+print(nome + "", sobrenome)  # Aqui depois do espaço "", coloca a virgula para imprimir a segunda variável
+print(f"{nome} {sobrenome}")
+
+    # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne 
+    # o resultado da operação AND entre elas.
+valor1 = bool(input("Digite um valor, True or False: " ) == 'True')
+valor2 = bool(input("Digite um valor, True or False: ") == 'True')
+
+result_and =  valor1 and valor2
+print(result_and)
+
+# Exemplo de entrada
+valor1 = False
+valor2 = True
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
+
+
