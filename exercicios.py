@@ -167,4 +167,16 @@ valor2 = True
 resultado_and = valor1 and valor2
 print("Resultado do AND lógico:", resultado_and)
 
+    # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+valor1or = bool(input("Digite um valor, True or False: " ) == 'True')
+valor2or = bool(input("Digite um valor, True or False: ") == 'True')
+
+result_or =  valor1or or valor2or
+print(result_or)
+
+# Exemplo de entrada
+valor1or = False
+valor2or = True
+resultado_or = valor1or or valor2or
+print("Resultado do AND lógico:", resultado_or)
 
