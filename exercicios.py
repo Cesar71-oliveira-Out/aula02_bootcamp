@@ -195,3 +195,11 @@ compara = compare1 == compare2
 
 print ("Note: Se True entradas são iguais, senão, são diferentes\n")
 print(compara)
+
+    # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+compare1dif = input("Digite uma palavra ou número: ")
+compare2dif = input("Digite outra palavra ou número: ")
+compara_dif = compare1dif != compare2dif
+
+print ("Note: Se True entradas são DIFERENTES, senão, são IGUAIS\n")
+print(compara_dif)
