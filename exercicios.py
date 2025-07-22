@@ -203,3 +203,16 @@ compara_dif = compare1dif != compare2dif
 
 print ("Note: Se True entradas são DIFERENTES, senão, são IGUAIS\n")
 print(compara_dif)
+
+    # 21: Conversor de Temperatura
+while True:  # Inicia um loop infinito
+    try:
+        celsius = float(input("Digite a temperatura em Celsius: "))
+        # Se a linha acima não der erro, o código continua aqui
+        fahrenheit = (celsius * 9/5) + 32
+        print(f"{celsius}°C é igual a {fahrenheit}°F.")
+        break  # Sai do loop se a entrada for válida
+    except ValueError:
+        # Se um ValueError ocorrer (entrada não numérica), este bloco é executado
+        print("Entrada inválida. Por favor, digite um NÚMERO para a temperatura.")
+        # O loop continua automaticamente, pedindo a entrada novamente
