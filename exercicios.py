@@ -1,5 +1,7 @@
 import math
 
+# Teste do GIT
+
 print("Operação de soma no Python\n")
 
     # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
